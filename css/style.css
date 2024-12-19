@@ -108,6 +108,10 @@ body {
     .nav-content{
         margin: 0px;
     }
+
+
+
+
 }
 
 
@@ -463,3 +467,40 @@ body {
 
 
 /*footer styles*/
+@media (max-width: 768px){
+    .section2-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+        .section2-content-part1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section2-content-part2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .section2-content{
+                padding: 20px 0px;
+            }
+
+    .section3-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: 5px;
+    }
+    .section3-content h4 br{
+        display: none;
+    }
+
+
+    .section4-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
